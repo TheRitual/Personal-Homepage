@@ -1,5 +1,5 @@
 # Marcin Kawczyński
-## Personal Homepagae
+## Personal Homepage
 
 This is my personal homepage or... CV?
 ## Getting Started with Create React App
