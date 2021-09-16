@@ -26,6 +26,8 @@ const common = {
         long: "1s",
     },
     defaultColors: {
+        themeShade: "default",
+        themeColor: "default",
         pageBackground: palette.whiteLilac,
         textColor: palette.mineShaft,
         tileBackground: palette.white,
@@ -42,15 +44,19 @@ const common = {
 
 const shades = {
     light: {
+        themeShade: "light",
     },
     dark: {
+        themeShade: "dark",
     }
 }
 
 const colorThemes = {
     blue: {
+        themeColor: "blue",
     },
     red: {
+        themeColor: "red",
     }
 }
 
