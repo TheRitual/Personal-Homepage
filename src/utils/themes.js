@@ -39,6 +39,7 @@ const common = {
         tileTextColor: palette.slateGray,
         linkColor: palette.dodgerBlue,
         linkColorHover: palette.scienceBlue,
+        info: palette.slateGray,
     }
 }
 
