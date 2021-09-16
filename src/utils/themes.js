@@ -1,14 +1,17 @@
 const palette = {
     mineShaft: "#252525",
-    semiMineShaft: "#363636B7",
-    semiIron: "#D1D5DA19;",
-    scienceBlue: "#0366D6",
     slateGray: "#6E7E91",
+    scienceBlue: "#0366D6",
+    dodgerBlue: "#2188FF",
     mercury: "#E5E5E5",
     whiteLilac: "#FBFBFE",
     white: "#FFFFFF",
+    ironA01: "rgba(209, 213, 218, 0.1)",
+    mineShaftA072: "rgba(54, 54, 54, 0.72)",
+    violetA02: "rgba(9, 10, 51, 0.02)",
+    violetA03: "rgba(9, 10, 51, 0.03)",
+    scienceBlueA05: "rgba(3, 102, 214, 0.5)",
 }
-
 const common = {
     breakpoints: {
         tabletLandscape: "1024px",
@@ -20,15 +23,20 @@ const common = {
         mid: "0.5s",
         long: "1s",
     },
-    colors: {
-
+    defaultColors: {
+        pageBackground: palette.whiteLilac,
+        textColor: palette.mineShaft,
+        tileBackground: palette.white,
+        shadowA: palette.violetA02,
+        shadowB: palette.violetA03,
+        primaryColor: palette.scienceBlue,
+        tileBorder: palette.ironA01,
+        tileTextColor: palette.slateGray,
     }
 }
 
 const shades = {
     light: {
-        pageBackground: palette.whiteLilac,
-        textColor: palette.mineShaft,
     },
     dark: {
     }
@@ -36,7 +44,6 @@ const shades = {
 
 const colorThemes = {
     blue: {
-        primaryColor: palette.scienceBlue,
     },
     red: {
     }
@@ -49,7 +56,7 @@ const themeConstructor = (shade, color) => {
         breakpoints: common.breakpoints,
         transitions: common.transitions,
         colors: {
-            ...common.colors,
+            ...common.defaultColors,
             ...chosenShade,
             ...chosenColor,
         }
