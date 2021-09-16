@@ -1,7 +1,7 @@
-import ThemeSwitch from "../../../common/themeSwitch/ThemeSwitch";
-import CircleImage from "../CircleImage";
+import CircleImage from "./CircleImage";
 import { Tile, BorderedTile } from "../Tiles";
 import { Header, Main } from "./styled";
+import HeaderInfoBox from "./HeaderInfoBox";
 
 
 const PersonalHomepage = () => {
@@ -9,9 +9,7 @@ const PersonalHomepage = () => {
         <>
             <Header>
                 <CircleImage src="https://swashvillage.org/storage/img/images_2/timothe-chalamet-biography_11.jpg" />
-                <div>
-                    <ThemeSwitch />
-                </div>
+                <HeaderInfoBox />
             </Header>
             <Main>
                 <Tile>Test</Tile>

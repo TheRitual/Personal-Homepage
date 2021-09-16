@@ -9,9 +9,7 @@ const ThemeSwitch = (props) => {
             <Info>
                 Change Theme:
             </Info>
-
             <ThemeButton />
-
             <Info>
                 {`${props.theme.colors.themeShade}/${props.theme.colors.themeColor}`}
             </Info>
