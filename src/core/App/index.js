@@ -3,7 +3,7 @@ import { Normalize } from "styled-normalize";
 import themeConstructor from "../../utils/themes";
 import { GlobalStyle } from "../globalStyles";
 
-const selectedTheme = themeConstructor();
+const selectedTheme = themeConstructor("light", "blue");
 
 const App = () => {
   return (

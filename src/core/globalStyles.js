@@ -23,5 +23,6 @@ export const GlobalStyle = createGlobalStyle`
         word-break: break-word;
         overflow-y: scroll;
         padding-bottom: 108px;
+        background-color: ${({ theme }) => theme.colors.pageBackground}
     }
 `;
