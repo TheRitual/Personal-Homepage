@@ -1,0 +1,28 @@
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
+    html {
+        box-sizing: border-box;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: inherit;
+        -webkit-font-smoothing: inherit;
+    }
+
+    body {
+        font-family: 'Inter', sans-serif;
+        margin: 0;
+        overflow-y: scroll;
+        transition: background 0.5s;
+        //background: ${({theme}) => theme.colors.siteBackground};\
+        font-size: 18px;
+        letter-spacing: 0.05em;
+        word-break: break-word;
+        overflow-y: scroll;
+        padding-bottom: 108px;
+    }
+`;
