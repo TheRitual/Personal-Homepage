@@ -11,7 +11,9 @@ const palette = {
     violetA02: "rgba(9, 10, 51, 0.02)",
     violetA03: "rgba(9, 10, 51, 0.03)",
     scienceBlueA05: "rgba(3, 102, 214, 0.5)",
+    scienceBlueA02: "rgba(3, 102, 214, 0.2)",
 }
+
 const common = {
     breakpoints: {
         tabletLandscape: "1024px",
@@ -31,7 +33,10 @@ const common = {
         shadowB: palette.violetA03,
         primaryColor: palette.scienceBlue,
         tileBorder: palette.ironA01,
+        tileBorderHover: palette.scienceBlueA02,
         tileTextColor: palette.slateGray,
+        linkColor: palette.dodgerBlue,
+        linkColorHover: palette.scienceBlue,
     }
 }
 
