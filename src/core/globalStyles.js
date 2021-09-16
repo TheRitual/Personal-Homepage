@@ -18,7 +18,6 @@ export const GlobalStyle = createGlobalStyle`
         margin: 0;
         overflow-y: scroll;
         transition: background 0.5s;
-        //background: ${({theme}) => theme.colors.siteBackground};\
         font-size: 18px;
         letter-spacing: 0.05em;
         word-break: break-word;

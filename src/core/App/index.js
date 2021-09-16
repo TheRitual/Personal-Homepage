@@ -1,11 +1,12 @@
 import { ThemeProvider } from "styled-components";
+import themeConstructor from "../../utils/themes";
 import { GlobalStyle } from "../globalStyles";
 
-const selectedTheme = "default";
+const selectedTheme = themeConstructor();
 
 const App = () => {
   return (
-    <ThemeProvider>
+    <ThemeProvider theme={selectedTheme}>
       <GlobalStyle />
     </ThemeProvider>
   );
