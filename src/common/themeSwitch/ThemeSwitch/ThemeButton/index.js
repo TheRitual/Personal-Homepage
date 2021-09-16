@@ -4,7 +4,7 @@ export const ThemeButton = styled.button`
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    border: 4px solid ${({theme}) => theme.colors.primaryColor};
+    border: 4px solid ${({theme}) => theme.colors.primary};
     background-color: ${({theme}) => theme.colors.tileBackground};
     margin: 5px;
     cursor: pointer;

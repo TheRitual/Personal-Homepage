@@ -1,10 +1,22 @@
 import CircleImage from "./CircleImage";
-import { Tile, BorderedTile } from "../Tiles";
 import { Header, Main } from "./styled";
 import HeaderInfoBox from "./HeaderInfoBox";
+import { BorderedTile, Tile } from "./Tiles";
 
 
 const PersonalHomepage = () => {
+
+    const links = [
+        {
+            description: "Demo",
+            link: "http://demo.com",
+        },
+        {
+            description: "Code",
+            link: "http://code.io",
+        },
+    ];
+
     return (
         <>
             <Header>
@@ -12,8 +24,11 @@ const PersonalHomepage = () => {
                 <HeaderInfoBox />
             </Header>
             <Main>
-                <Tile>Test</Tile>
-                <BorderedTile>Test2</BorderedTile>
+                <Tile title="My skillset includes 🛠️">Test</Tile>
+                <Tile title="What I want to learn next 🚀">Test</Tile>
+                <BorderedTile title="Movie Browser" links={links}>
+                    Tekst
+                </BorderedTile>
             </Main>
         </>
     );
