@@ -1,8 +1,8 @@
-import { IconGHPrimary } from "../icons";
-import { IconWrapper } from "../styled";
-import { BorderedTile } from "../Tiles";
-import { SubTitle, TitleCenter } from "../Title";
+import { IconGHPrimary } from "../../icons";
+import { IconWrapper } from "../../styled";
+import { SubTitle, TitleCenter } from "../../components/Title";
 import { PortfolioGrid } from "./styled";
+import { BorderedTile } from "../../components/Tiles";
 
 const links = [
     {

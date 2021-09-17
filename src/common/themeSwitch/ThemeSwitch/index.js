@@ -1,7 +1,7 @@
-import { Info } from "../../common-styled";
 import { ThemeButton } from "./ThemeButton";
 import { withTheme } from "styled-components";
 import { SwitchContainer } from "./styled";
+import Info from "../../components/Info";
 
 const ThemeSwitch = (props) => {
     return (

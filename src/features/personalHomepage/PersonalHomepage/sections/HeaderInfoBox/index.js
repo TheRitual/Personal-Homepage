@@ -1,8 +1,8 @@
-import { Info } from "../../../../common/common-styled";
-import ThemeSwitch from "../../../../common/themeSwitch/ThemeSwitch";
-import Button from "../Button";
-import { EnvelopeIcon } from "../icons";
+import Info from "../../../../../common/components/Info";
+import Button from "../../components/Button";
+import { EnvelopeIcon } from "../../icons";
 import { HeaderContent, HeaderTitle } from "./styled";
+import ThemeSwitch from "../../../../../common/themeSwitch/ThemeSwitch";
 
 
 const HeaderInfoBox = () => {

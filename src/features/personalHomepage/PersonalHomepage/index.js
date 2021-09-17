@@ -1,8 +1,9 @@
-import CircleImage from "./CircleImage";
+import CircleImage from "./components/CircleImage";
 import { Header, Main } from "./styled";
-import HeaderInfoBox from "./HeaderInfoBox";
-import Skills from "./Skills";
-import Portfolio from "./Portfolio";
+import HeaderInfoBox from "./sections/HeaderInfoBox";
+import Skills from "./sections/Skills";
+import Portfolio from "./sections/Portfolio";
+import Footer from "./sections/Footer";
 
 
 const PersonalHomepage = () => {
@@ -15,6 +16,7 @@ const PersonalHomepage = () => {
             <Main>
                 <Skills />
                 <Portfolio />
+                <Footer />
             </Main>
         </>
     );

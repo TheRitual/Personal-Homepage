@@ -1,4 +1,4 @@
-import { Tile } from "../Tiles";
+import { Tile } from "../../components/Tiles";
 
 const list = [
     "Effective communication",
