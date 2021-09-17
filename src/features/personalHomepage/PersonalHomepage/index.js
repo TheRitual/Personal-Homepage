@@ -17,6 +17,17 @@ const PersonalHomepage = () => {
         },
     ];
 
+    const list = [
+        "Effective communication",
+        "Teamwork",
+        "Responsibility",
+        "Creativity",
+        "Problem-solving",
+        "Leadership",
+        "Extroversion",
+        "People skills",
+    ];
+
     return (
         <>
             <Header>
@@ -24,11 +35,9 @@ const PersonalHomepage = () => {
                 <HeaderInfoBox />
             </Header>
             <Main>
-                <Tile title="My skillset includes 🛠️">Test</Tile>
-                <Tile title="What I want to learn next 🚀">Test</Tile>
-                <BorderedTile title="Movie Browser" links={links}>
-                    Tekst
-                </BorderedTile>
+                <Tile title="My skillset includes 🛠️" list={list} />
+                <Tile title="What I want to learn next 🚀" />
+                <BorderedTile title="Movie Browser" links={links}> Text </BorderedTile>
             </Main>
         </>
     );

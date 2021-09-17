@@ -1,8 +1,9 @@
 import { Info } from "../../../../common/common-styled";
 import ThemeSwitch from "../../../../common/themeSwitch/ThemeSwitch";
 import Button from "../Button";
-import { HeaderContent, HeaderTitle } from "./styled";
 import { EnvelopeIcon } from "../icons";
+import { HeaderContent, HeaderTitle } from "./styled";
+
 
 const HeaderInfoBox = () => {
     return (
@@ -13,7 +14,10 @@ const HeaderInfoBox = () => {
             <HeaderContent>
                 👨🏻‍💻 I’m a passionate Actor in love with Dune,currently looking for new job opportunities.
             </HeaderContent>
-            <Button><EnvelopeIcon /> Hire Me</Button>
+            <Button as="a" href="mailto:marcin.kawczynski@theritual.eu">
+                <EnvelopeIcon />
+                Hire Me
+            </Button>
         </div>
     );
 }

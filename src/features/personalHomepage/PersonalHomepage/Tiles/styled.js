@@ -56,3 +56,23 @@ export const LinkListLink = styled.a`
         border-bottom: 1px solid ${({ theme }) => theme.colors.linkColorHover};
     }
 `;
+
+export const GridList = styled.ul`
+    list-style: none;
+    margin-top: 32px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 8px 32px;
+`;
+
+export const GridListItem = styled.li`
+    display: flex;
+    line-height: 1.4;
+`;
+
+export const ListItemText = styled.p`
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+`;

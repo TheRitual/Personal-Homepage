@@ -1,11 +1,37 @@
-import { ColoredTitle, Description, LinkList, LinkListItem, LinkListLink, StyledBorderedTile, StyledTile } from "./styled";
+import { Bullet } from "../icons";
 import { Title, TitleWrapper } from "../Title";
+import {
+    ColoredTitle,
+    Description,
+    GridList,
+    GridListItem,
+    LinkList,
+    LinkListItem,
+    LinkListLink,
+    StyledBorderedTile,
+    StyledTile,
+    ListItemText,
+} from "./styled";
 
-export const Tile = ({ title, children }) => {
+export const Tile = ({ title, children, list }) => {
     return (
         <StyledTile>
             {title && <TitleWrapper><Title>{title}</Title></TitleWrapper>}
-            {children}
+            {children && <Description> {children} </Description>}
+            {list &&
+                <GridList>{
+                    list.map(listItem => {
+                        return (
+                            <GridListItem>
+                                <Bullet />
+                                <ListItemText>
+                                    {listItem}
+                                </ListItemText>
+                            </GridListItem>
+                        );
+                    })
+                }</GridList>
+            }
         </StyledTile>
     );
 }
@@ -17,8 +43,7 @@ export const BorderedTile = ({ title, children, links }) => {
             <Description>
                 {children}
             </Description>
-            {
-                links &&
+            {links &&
                 <LinkList>{
                     links.map(link => {
                         return (

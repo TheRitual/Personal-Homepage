@@ -13,6 +13,7 @@ const Button = styled.button`
     background: ${({ theme }) => theme.colors.primary};
     border: 1px solid ${({ theme }) => theme.colors.buttonTextColor};
     border-radius: 4px;
+    text-decoration: none;
     &:hover {
         cursor: pointer;
         border: 1px solid rgba(209, 213, 218, 0.3);
@@ -21,11 +22,6 @@ const Button = styled.button`
             -2px 2px 0px ${({ theme }) => theme.colors.buttonShadow},
             2px 2px 0px ${({ theme }) => theme.colors.buttonShadow},
             -2px -2px 0px ${({ theme }) => theme.colors.buttonShadow};
-    }
-    & svg {
-        height: 20px;
-        vertical-align: middle;
-        margin: 0 18px 0 2px;
     }
 `;
 
