@@ -1,7 +1,9 @@
 import CircleImage from "./CircleImage";
-import { Header, Main } from "./styled";
+import { Header, IconWrapper, Main } from "./styled";
 import HeaderInfoBox from "./HeaderInfoBox";
 import { BorderedTile, Tile } from "./Tiles";
+import { IconGHPrimary } from "./icons";
+import { SubTitle, TitleCenter } from "./Title";
 
 
 const PersonalHomepage = () => {
@@ -37,6 +39,9 @@ const PersonalHomepage = () => {
             <Main>
                 <Tile title="My skillset includes 🛠️" list={list} />
                 <Tile title="What I want to learn next 🚀" />
+                <IconWrapper><IconGHPrimary /></IconWrapper>
+                <TitleCenter> Portfolio </TitleCenter>
+                <SubTitle> My recent projects </SubTitle>
                 <BorderedTile title="Movie Browser" links={links}> Text </BorderedTile>
             </Main>
         </>

@@ -15,3 +15,8 @@ export const Header = styled.header`
     grid-template-columns: minmax(100px, 398px) auto;
     column-gap: 66px;
 `;
+
+export const IconWrapper = styled.div`
+    width: fit-content;
+    margin: auto;
+`;

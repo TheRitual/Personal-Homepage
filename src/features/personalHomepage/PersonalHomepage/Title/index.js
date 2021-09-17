@@ -8,10 +8,25 @@ export const Title = styled.h2`
     color: #252525;
 `;
 
+export const TitleCenter = styled(Title)`
+    text-align: center;
+    margin: 13px auto 8px;
+`;
+
 export const TitleWrapper = styled.div`
     padding: 0 0 15px 0;
     border-bottom: 1px solid ${({ theme }) => theme.colors.lineDecoration};
     margin-bottom: 32px;
+`;
+
+export const SubTitle = styled.h4`
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    color: ${({ theme }) => theme.colors.textColor};
+    text-align: center;
+    font-weight: normal;
+    margin: 8px auto 24px;
 `;
 
 export default Title;
