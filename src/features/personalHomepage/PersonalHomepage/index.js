@@ -1,23 +1,13 @@
 import CircleImage from "./CircleImage";
 import { Header, IconWrapper, Main } from "./styled";
 import HeaderInfoBox from "./HeaderInfoBox";
-import { BorderedTile, Tile } from "./Tiles";
+import { Tile } from "./Tiles";
 import { IconGHPrimary } from "./icons";
 import { SubTitle, TitleCenter } from "./Title";
+import Portfolio from "./Portfolio";
 
 
 const PersonalHomepage = () => {
-
-    const links = [
-        {
-            description: "Demo",
-            link: "http://demo.com",
-        },
-        {
-            description: "Code",
-            link: "http://code.io",
-        },
-    ];
 
     const list = [
         "Effective communication",
@@ -42,7 +32,7 @@ const PersonalHomepage = () => {
                 <IconWrapper><IconGHPrimary /></IconWrapper>
                 <TitleCenter> Portfolio </TitleCenter>
                 <SubTitle> My recent projects </SubTitle>
-                <BorderedTile title="Movie Browser" links={links}> Text </BorderedTile>
+                <Portfolio />
             </Main>
         </>
     );
