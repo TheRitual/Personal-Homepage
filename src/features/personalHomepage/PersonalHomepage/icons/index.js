@@ -24,25 +24,25 @@ export const EnvelopeIcon = styled(Envelope)`
 export const IconFB = styled(SocialFB)`
     height: 48px;
     width: 48px;
-    color: ${({ theme }) => theme.colors.textColor};
+    color: inherit;
 `;
 
 export const IconGH = styled(SocialGH)`
     height: 48px;
     width: 48px;
-    color: ${({ theme }) => theme.colors.textColor};
+    color: inherit;
 `;
 
 export const IconInsta = styled(SocialInsta)`
     height: 48px;
     width: 48px;
-    color: ${({ theme }) => theme.colors.textColor};
+    color: inherit;
 `;
 
 export const IconLI = styled(SocialLI)`
     height: 48px;
     width: 48px;
-    color: ${({ theme }) => theme.colors.textColor};
+    color: inherit;
 `;
 
 export const IconGHPrimary = styled(SocialGH)`
