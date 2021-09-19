@@ -5,7 +5,6 @@ import Skills from "./sections/Skills";
 import Portfolio from "./sections/Portfolio";
 import Footer from "./sections/Footer";
 
-
 const PersonalHomepage = () => {
     return (
         <>
