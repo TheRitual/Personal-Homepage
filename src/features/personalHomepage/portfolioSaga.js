@@ -4,7 +4,7 @@ import { setProjects, fetchProjectsError, fetchProjects } from "./portfolioSlice
 
 function* fetchProjectsHandler() {
     try {
-        yield delay(3000);
+        yield delay(5000);
         const sampleTasks = yield call(getProjects);
         yield put(setProjects(sampleTasks));
     } catch (error) {

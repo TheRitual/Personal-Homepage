@@ -17,7 +17,7 @@ export const LoadingInformation = styled.p`
 `;
 
 export const LoadingWrapper = styled.div`
-    width: 200px;
+    width: fit-content;
     margin: auto;
     padding: 0;
 `;
