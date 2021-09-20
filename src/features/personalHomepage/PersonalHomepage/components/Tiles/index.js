@@ -48,7 +48,7 @@ export const BorderedTile = ({ title, children, links }) => {
                     links.map((link, index) => {
                         return (
                             <LinkListItem key={index}>
-                                {link.description}:<LinkListLink href={link.link}>{link.link}</LinkListLink>
+                                {link.label}:<LinkListLink href={link.link}>{link.link}</LinkListLink>
                             </LinkListItem>
                         )
                     })
