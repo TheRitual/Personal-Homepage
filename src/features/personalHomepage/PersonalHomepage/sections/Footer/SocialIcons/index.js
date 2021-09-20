@@ -1,4 +1,4 @@
-import { IconFB, IconGH, IconInsta, IconLI } from "../../../icons";
+import { IconFB, IconGH, IconInsta, IconLI } from "../../../gfx";
 import { IconsWrapper, SocialLink } from "./styled";
 
 

@@ -1,4 +1,4 @@
-import { Bullet } from "../../icons";
+import { Bullet } from "../../gfx";
 import { Title, TitleWrapper } from "../Title";
 import {
     ColoredTitle,

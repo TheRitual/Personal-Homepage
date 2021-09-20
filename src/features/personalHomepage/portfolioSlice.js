@@ -9,6 +9,7 @@ const portfolioSlice = createSlice({
     reducers: {
         setProjects: (state, { payload: newProjects }) => {
             state.projects = newProjects;
+            state.isLoading = false;
         },
         fetchProjects: (state) => {
             state.isLoading = true;

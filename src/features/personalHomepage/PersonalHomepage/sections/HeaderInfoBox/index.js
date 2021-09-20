@@ -1,6 +1,6 @@
 import Info from "../../../../../common/components/Info";
 import Button from "../../components/Button";
-import { EnvelopeIcon } from "../../icons";
+import { EnvelopeIcon } from "../../gfx";
 import { HeaderContent, HeaderTitle } from "./styled";
 import ThemeSwitch from "../../../../../common/themeSwitch/ThemeSwitch";
 
