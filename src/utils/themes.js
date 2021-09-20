@@ -54,6 +54,7 @@ const shades = {
     },
     dark: {
         themeShade: "dark",
+        
     }
 }
 

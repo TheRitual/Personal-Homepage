@@ -15,7 +15,7 @@ const themeSlice = createSlice({
 
 export const { changeColor, changeShade } = themeSlice.actions;
 
-const selectThemeState = state => state.theme;
+export const selectThemeState = state => state.theme;
 
 export const selectShade = state => selectThemeState(state).shade;
 export const selectColor = state => selectThemeState(state).color;
