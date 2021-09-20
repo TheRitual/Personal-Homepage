@@ -20,9 +20,9 @@ export const Tile = ({ title, children, list }) => {
             {children && <Description> {children} </Description>}
             {list &&
                 <GridList>{
-                    list.map(listItem => {
+                    list.map((listItem, index) => {
                         return (
-                            <GridListItem>
+                            <GridListItem key={index}>
                                 <Bullet />
                                 <ListItemText>
                                     {listItem}
@@ -45,9 +45,9 @@ export const BorderedTile = ({ title, children, links }) => {
             </Description>
             {links &&
                 <LinkList>{
-                    links.map(link => {
+                    links.map((link, index) => {
                         return (
-                            <LinkListItem>
+                            <LinkListItem key={index}>
                                 {link.description}:<LinkListLink href={link.link}>{link.link}</LinkListLink>
                             </LinkListItem>
                         )

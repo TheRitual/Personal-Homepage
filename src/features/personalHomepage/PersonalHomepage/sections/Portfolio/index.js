@@ -23,10 +23,6 @@ const Portfolio = () => {
             <SubTitle> My recent projects </SubTitle>
             <PortfolioGrid>
                 <BorderedTile title="Movie Browser" links={links}> Text </BorderedTile>
-                <BorderedTile title="Movie Browser" links={links}> Text </BorderedTile>
-                <BorderedTile title="Movie Browser" links={links}> Text </BorderedTile>
-                <BorderedTile title="Movie Browser" links={links}> Text </BorderedTile>
-                <BorderedTile title="Movie Browser" links={links}> Text </BorderedTile>
             </PortfolioGrid>
         </>
     );
