@@ -18,7 +18,7 @@ const Portfolio = () => {
             <SubTitle> My recent projects </SubTitle>
             {isLoading ?
                 <LoadingBox />
-                :
+            :
                 <PortfolioGrid>
                     {isEmpty ||
                         projects.map((project, index) => (
