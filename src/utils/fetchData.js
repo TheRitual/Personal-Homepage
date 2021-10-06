@@ -5,7 +5,6 @@ export const fetchRepos = async (org) => {
     const response = await axios.get(`https://api.github.com/users/${org}/repos`, {
       headers: {
         'Accept': 'application/vnd.github.VERSION.text+json',
-        'Authorization' : 'token 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',
       }
     });
     return response;
