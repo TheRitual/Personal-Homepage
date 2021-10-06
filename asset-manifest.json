@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.js": "/PersonalHomepage/static/js/main.3a4704e5.chunk.js",
-    "main.js.map": "/PersonalHomepage/static/js/main.3a4704e5.chunk.js.map",
-    "runtime-main.js": "/PersonalHomepage/static/js/runtime-main.fc7ceaad.js",
-    "runtime-main.js.map": "/PersonalHomepage/static/js/runtime-main.fc7ceaad.js.map",
-    "static/js/2.1d4ed9f6.chunk.js": "/PersonalHomepage/static/js/2.1d4ed9f6.chunk.js",
-    "static/js/2.1d4ed9f6.chunk.js.map": "/PersonalHomepage/static/js/2.1d4ed9f6.chunk.js.map",
-    "static/js/3.afad13b3.chunk.js": "/PersonalHomepage/static/js/3.afad13b3.chunk.js",
-    "static/js/3.afad13b3.chunk.js.map": "/PersonalHomepage/static/js/3.afad13b3.chunk.js.map",
+    "main.js": "/PersonalHomepage/static/js/main.3328baaf.chunk.js",
+    "main.js.map": "/PersonalHomepage/static/js/main.3328baaf.chunk.js.map",
+    "runtime-main.js": "/PersonalHomepage/static/js/runtime-main.aa493b41.js",
+    "runtime-main.js.map": "/PersonalHomepage/static/js/runtime-main.aa493b41.js.map",
+    "static/js/2.5db313e6.chunk.js": "/PersonalHomepage/static/js/2.5db313e6.chunk.js",
+    "static/js/2.5db313e6.chunk.js.map": "/PersonalHomepage/static/js/2.5db313e6.chunk.js.map",
+    "static/js/3.1dfd3122.chunk.js": "/PersonalHomepage/static/js/3.1dfd3122.chunk.js",
+    "static/js/3.1dfd3122.chunk.js.map": "/PersonalHomepage/static/js/3.1dfd3122.chunk.js.map",
     "index.html": "/PersonalHomepage/index.html",
-    "static/js/2.1d4ed9f6.chunk.js.LICENSE.txt": "/PersonalHomepage/static/js/2.1d4ed9f6.chunk.js.LICENSE.txt",
+    "static/js/2.5db313e6.chunk.js.LICENSE.txt": "/PersonalHomepage/static/js/2.5db313e6.chunk.js.LICENSE.txt",
     "static/media/bullet.ba616a19.svg": "/PersonalHomepage/static/media/bullet.ba616a19.svg",
     "static/media/envelope.067807c1.svg": "/PersonalHomepage/static/media/envelope.067807c1.svg",
     "static/media/loading.4b9f62dc.svg": "/PersonalHomepage/static/media/loading.4b9f62dc.svg",
@@ -19,8 +19,8 @@
     "static/media/social_lin.b7934e7e.svg": "/PersonalHomepage/static/media/social_lin.b7934e7e.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fc7ceaad.js",
-    "static/js/2.1d4ed9f6.chunk.js",
-    "static/js/main.3a4704e5.chunk.js"
+    "static/js/runtime-main.aa493b41.js",
+    "static/js/2.5db313e6.chunk.js",
+    "static/js/main.3328baaf.chunk.js"
   ]
 }
