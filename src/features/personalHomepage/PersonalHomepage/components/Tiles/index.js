@@ -36,7 +36,7 @@ export const Tile = ({ title, children, list }) => {
     );
 }
 
-export const BorderedTile = ({ title, children, repo }) => {
+export const BorderedTile = ({ title, children, repo, isDemo }) => {
     return (
         <StyledBorderedTile>
             {title && <LinkListLink href={repo}><ColoredTitle>{title}</ColoredTitle></LinkListLink>}
@@ -46,7 +46,12 @@ export const BorderedTile = ({ title, children, repo }) => {
             <LinkList>
                 {repo &&
                     <LinkListItem>
-                        LINK: <LinkListLink href={repo}>{repo}</LinkListLink>
+                        LINK: <LinkListLink href={repo} target="_blank">{repo}</LinkListLink>
+                    </LinkListItem>
+                }
+                {isDemo &&
+                    <LinkListItem>
+                        DEMO: <LinkListLink href={`https://theritual.github.io/${title}/`} target="_blank">{`https://theritual.github.io/${title}/`}</LinkListLink>
                     </LinkListItem>
                 }
             </LinkList>
