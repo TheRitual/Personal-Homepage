@@ -37,6 +37,7 @@ export const Description = styled.p`
 export const LinkList = styled.ul`
     list-style: none;
     padding: 0;
+    max-width: 100%;
 `;
 
 export const LinkListItem = styled.li`
@@ -44,13 +45,16 @@ export const LinkListItem = styled.li`
     line-height: 1.4;
     letter-spacing: 0.05em;
     margin: 8px 0;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
 `;
 
 export const LinkListLink = styled.a`
     margin-left: 8px;
     text-decoration: none;
     color: ${({ theme }) => theme.colors.linkColor};
-
     &:hover {
         color: ${({ theme }) => theme.colors.linkColorHover};
         border-bottom: 1px solid ${({ theme }) => theme.colors.linkColorHover};
