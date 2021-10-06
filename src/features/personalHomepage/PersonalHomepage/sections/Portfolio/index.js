@@ -21,8 +21,8 @@ const Portfolio = () => {
             :
                 <PortfolioGrid>
                     {isEmpty ||
-                        projects.map((project, index) => (
-                            <BorderedTile title={project.title} links={project.links} key={index}> {project.description} </BorderedTile>
+                        projects.map((project) => (
+                            !project.archived && <BorderedTile title={project.name} repo={project.html_url} key={project.id}> {project.description} </BorderedTile>
                         ))}
                 </PortfolioGrid>
             }

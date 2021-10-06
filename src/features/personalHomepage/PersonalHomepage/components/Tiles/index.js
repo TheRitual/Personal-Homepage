@@ -36,24 +36,20 @@ export const Tile = ({ title, children, list }) => {
     );
 }
 
-export const BorderedTile = ({ title, children, links }) => {
+export const BorderedTile = ({ title, children, repo }) => {
     return (
         <StyledBorderedTile>
-            {title && <ColoredTitle>{title}</ColoredTitle>}
+            {title && <LinkListLink href={repo}><ColoredTitle>{title}</ColoredTitle></LinkListLink>}
             <Description>
                 {children}
             </Description>
-            {links &&
-                <LinkList>{
-                    links.map((link, index) => {
-                        return (
-                            <LinkListItem key={index}>
-                                {link.label}:<LinkListLink href={link.link}>{link.link}</LinkListLink>
-                            </LinkListItem>
-                        )
-                    })
-                }</LinkList>
-            }
+            <LinkList>
+                {repo &&
+                    <LinkListItem>
+                        LINK: <LinkListLink href={repo}>{repo}</LinkListLink>
+                    </LinkListItem>
+                }
+            </LinkList>
         </StyledBorderedTile>
     );
 }

@@ -1,15 +1,17 @@
 import { call, put, delay, takeLatest } from "redux-saga/effects";
-import { getProjects } from "./getProjects";
+import { fetchRepos } from "../../utils/fetchData";
 import { setProjects, fetchProjectsError, fetchProjects } from "./portfolioSlice";
 
 function* fetchProjectsHandler() {
     try {
         yield delay(5000);
-        const sampleTasks = yield call(getProjects);
-        yield put(setProjects(sampleTasks));
+        const repos = yield call(fetchRepos,"theritual");
+        yield put(setProjects(repos.data));
+        console.log(repos.data);
     } catch (error) {
         yield put(fetchProjectsError());
         yield call(alert, "Something went wrong!");
+        yield call(console.error, error);
     }
 }
 
