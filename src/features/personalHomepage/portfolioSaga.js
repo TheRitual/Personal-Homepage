@@ -14,9 +14,9 @@ function* fetchProjectsHandler() {
             const newDate = yield new Date();
             yield call(saveTaskInLocalStorage, fetchTimeKey, newDate);
             yield put(setFetchTime(newDate));
-            const repos = yield call(fetchRepos, "theritual");
-            yield call(saveTaskInLocalStorage, portfolioKey, repos.data);
-            yield put(setProjects(repos.data));
+            const repos = yield call(fetchRepos);
+            yield call(saveTaskInLocalStorage, portfolioKey, repos);
+            yield put(setProjects(repos));
         } else {
             yield put(setLoading(false));
         }
