@@ -6,6 +6,7 @@ import Portfolio from "./sections/Portfolio";
 import Footer from "./sections/Footer";
 import { useDispatch } from "react-redux";
 import { fetchProjects } from "../portfolioSlice";
+import ProfilePicture from "./gfx/profile_picture.jpg";
 
 const PersonalHomepage = () => {
     const dispatch = useDispatch();
@@ -13,7 +14,7 @@ const PersonalHomepage = () => {
     return (
         <>
             <Header>
-                <CircleImage src="https://swashvillage.org/storage/img/images_2/timothe-chalamet-biography_11.jpg" />
+                <CircleImage src={ProfilePicture} />
                 <HeaderInfoBox />
             </Header>
             <Main>

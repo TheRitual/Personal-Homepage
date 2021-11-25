@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const Button = styled.button`
+    display: inline-block;
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
@@ -10,6 +11,7 @@ const Button = styled.button`
     letter-spacing: 0.05em;
     color: ${({ theme }) => theme.colors.buttonTextColor};
     padding: 12px 16px;
+    margin: 15px 0;
     background: ${({ theme }) => theme.colors.primary};
     border: 1px solid ${({ theme }) => theme.colors.buttonTextColor};
     border-radius: 4px;

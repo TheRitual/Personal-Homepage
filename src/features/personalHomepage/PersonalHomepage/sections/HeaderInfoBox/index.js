@@ -10,9 +10,9 @@ const HeaderInfoBox = () => {
         <div>
             <ThemeSwitch />
             <Info>This is</Info>
-            <HeaderTitle>Timothée Chalamet</HeaderTitle>
+            <HeaderTitle>Marcin Kawczyński</HeaderTitle>
             <HeaderContent>
-                👨🏻‍💻 I’m a passionate Actor in love with Dune,currently looking for new job opportunities.
+            🧑‍💻 Passionate Junior Front-End Developer, coding in React.js/JavaScript. Currently looking for new job opportunities.
             </HeaderContent>
             <Button as="a" href="mailto:marcin.kawczynski@theritual.eu">
                 <EnvelopeIcon />

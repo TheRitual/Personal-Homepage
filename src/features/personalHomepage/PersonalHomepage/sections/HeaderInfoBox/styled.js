@@ -8,6 +8,7 @@ export const HeaderTitle = styled.h1`
     line-height: 46px;
     letter-spacing: 0.05em;
     color: ${({ theme }) => theme.colors.textColor};
+    margin: 25px 0;
 `;
 
 export const HeaderContent = styled.p`

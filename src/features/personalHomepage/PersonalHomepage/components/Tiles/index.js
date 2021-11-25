@@ -16,8 +16,18 @@ import {
 export const Tile = ({ title, children, list }) => {
     return (
         <StyledTile>
-            {title && <TitleWrapper><Title>{title}</Title></TitleWrapper>}
-            {children && <Description> {children} </Description>}
+            {title &&
+                <TitleWrapper>
+                    <Title>
+                        {title}
+                    </Title>
+                </TitleWrapper>
+            }
+            {children &&
+                <Description>
+                    {children}
+                </Description>
+            }
             {list &&
                 <GridList>{
                     list.map((listItem, index) => {
