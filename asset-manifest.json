@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/PersonalHomepage/static/js/main.b35ecd50.chunk.js",
-    "main.js.map": "/PersonalHomepage/static/js/main.b35ecd50.chunk.js.map",
+    "main.js": "/PersonalHomepage/static/js/main.a6820cba.chunk.js",
+    "main.js.map": "/PersonalHomepage/static/js/main.a6820cba.chunk.js.map",
     "runtime-main.js": "/PersonalHomepage/static/js/runtime-main.aa493b41.js",
     "runtime-main.js.map": "/PersonalHomepage/static/js/runtime-main.aa493b41.js.map",
     "static/js/2.b9b9ff7e.chunk.js": "/PersonalHomepage/static/js/2.b9b9ff7e.chunk.js",
@@ -13,6 +13,7 @@
     "static/media/bullet.ba616a19.svg": "/PersonalHomepage/static/media/bullet.ba616a19.svg",
     "static/media/envelope.067807c1.svg": "/PersonalHomepage/static/media/envelope.067807c1.svg",
     "static/media/loading.4b9f62dc.svg": "/PersonalHomepage/static/media/loading.4b9f62dc.svg",
+    "static/media/profile_picture.30126d74.jpg": "/PersonalHomepage/static/media/profile_picture.30126d74.jpg",
     "static/media/social_fb.c86c9160.svg": "/PersonalHomepage/static/media/social_fb.c86c9160.svg",
     "static/media/social_gh.059ec903.svg": "/PersonalHomepage/static/media/social_gh.059ec903.svg",
     "static/media/social_insta.56c688f0.svg": "/PersonalHomepage/static/media/social_insta.56c688f0.svg",
@@ -21,6 +22,6 @@
   "entrypoints": [
     "static/js/runtime-main.aa493b41.js",
     "static/js/2.b9b9ff7e.chunk.js",
-    "static/js/main.b35ecd50.chunk.js"
+    "static/js/main.a6820cba.chunk.js"
   ]
 }
