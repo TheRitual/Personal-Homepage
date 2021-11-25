@@ -1,7 +1,7 @@
 # Marcin Kawczyński
 ## Personal Homepage
 
-https://theritual.github.io/PersonalHomepage/
+https://theritual.github.io/Personal-Homepage/
 
 This is my personal homepage or... CV?
 ## Getting Started with Create React App
