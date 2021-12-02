@@ -17,7 +17,7 @@ export const StyledBorderedTile = styled(StyledTile)`
     ${({ theme }) =>
         css`
             border: 6px solid ${theme.colors.tileBorder};
-            padding: 56px;
+            padding: 56px 56px 80px;
             margin: 0;
             &:hover {
             border-color: ${({ theme }) => theme.colors.tileBorderHover};
