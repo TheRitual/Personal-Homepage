@@ -59,7 +59,7 @@ export const LinkListItem = styled.li`
     letter-spacing: 0.05em;
     margin: 8px 0;
     text-overflow: ellipsis;
-    max-width: 100 %;
+    max-width: 100%;
     white-space: nowrap;
     overflow: hidden;
 `;

@@ -1,6 +1,6 @@
 import Info from "../common/Info";
 import Button from "../common/Button";
-import { EnvelopeIcon } from "../gfx";
+import { EnvelopeIcon } from "./gfx";
 import { HeaderContent, HeaderTitle } from "./styled";
 import ThemeSwitch from "./ThemeSwitch";
 

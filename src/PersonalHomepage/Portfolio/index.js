@@ -1,4 +1,4 @@
-import { IconGHPrimary } from "../gfx";
+import { IconGHPrimary } from "./gfx";
 import { IconWrapper } from "../styled";
 import { SubTitle, TitleCenter } from "../common/Title";
 import { PortfolioGrid } from "./styled";
