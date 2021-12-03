@@ -4,8 +4,8 @@ export const ThemeButton = styled.button`
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    border: 4px solid ${({theme}) => theme.colors.primary};
-    background-color: ${({theme}) => theme.colors.tileBackground};
+    background-color: ${({bgcolor}) => {console.log(bgcolor);return bgcolor;}};
+    border: 3px solid ${({color}) => color};
     margin: 5px;
     cursor: pointer;
 `;

@@ -5,7 +5,7 @@ export const Title = styled.h2`
     font-size: 30px;
     line-height: 36px;
     letter-spacing: 0.05em;
-    color: #252525;
+    color: ${({ theme }) => theme.colors.titleColor};
 `;
 
 export const TitleCenter = styled(Title)`

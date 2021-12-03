@@ -16,7 +16,7 @@ export const GlobalStyle = createGlobalStyle`
     body {
         font-family: 'Inter', sans-serif;
         margin: 0;
-        transition: background 0.5s;
+        transition: 0.5s;
         font-size: 18px;
         letter-spacing: 0.05em;
         word-break: break-word;
