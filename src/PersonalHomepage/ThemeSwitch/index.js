@@ -1,7 +1,7 @@
 import { ThemeButton } from "./SwitchBox/ThemeButton";
 import { withTheme } from "styled-components";
 import { BoxWrapper, SwitchContainer, ThemeBox } from "./styled";
-import Info from "../../common/Info";
+import Info from "../common/Info";
 import SwitchBox from "./SwitchBox";
 import { useSelector } from "react-redux";
 import { selectColor, selectShade, selectThemeBoxVisible, setThemeBoxVisibility } from "./themeSlice";

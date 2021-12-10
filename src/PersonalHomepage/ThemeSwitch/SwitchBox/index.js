@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux";
 import { withTheme } from "styled-components";
-import Info from "../../../common/Info";
+import Info from "../../common/Info";
 import { changeShade, changeColor, setThemeBoxVisibility } from "../themeSlice";
 import { BoxWrapper, ThemeBox } from "../styled";
 import { ThemeButton } from "./ThemeButton";

@@ -14,9 +14,24 @@ export const Header = styled.header`
     display: grid;
     grid-template-columns: minmax(100px, 398px) auto;
     column-gap: 66px;
+    row-gap: 0px;
+    @media(max-width: 700px) {
+        margin: 0;
+        padding: 0;
+        grid-template-columns: 50% 50%;
+        column-gap: 5px;
+    }
 `;
 
 export const IconWrapper = styled.div`
     width: fit-content;
     margin: auto;
+`;
+
+export const Page = styled.div`
+    @media(max-width: 700px) {
+        margin: auto;
+        width: fit-content;
+        padding: 16px;
+    }
 `;

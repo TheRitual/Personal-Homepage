@@ -1,5 +1,11 @@
 import styled from "styled-components";
 
+export const HeaderWrapper = styled.section`
+    @media(max-width: 700px){
+        grid-column: span 2;
+    }
+`;
+
 export const HeaderTitle = styled.h1`
     font-family: Inter;
     font-style: normal;
@@ -20,4 +26,7 @@ export const HeaderContent = styled.p`
     letter-spacing: 0.05em;
     color: ${({ theme }) => theme.colors.tileTextColor};
     max-width: 640px;
+    @media(max-width: 700px){
+        max-width: auto;
+    }
 `;

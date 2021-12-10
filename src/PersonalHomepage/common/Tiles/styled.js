@@ -22,6 +22,9 @@ export const StyledBorderedTile = styled(StyledTile)`
             &:hover {
             border-color: ${({ theme }) => theme.colors.tileBorderHover};
             }
+            @media(max-width: 700px) {
+                padding: 20px;
+            }
         `}
 `;
 
@@ -84,6 +87,10 @@ export const GridList = styled.ul`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 8px 32px;
+    @media(max-width: 700px) {
+        margin-top: 16px;
+        grid-template-columns: 1fr 1fr;
+    }
 `;
 
 export const GridListItem = styled.li`

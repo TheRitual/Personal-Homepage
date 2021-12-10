@@ -1,14 +1,12 @@
 import Info from "../common/Info";
 import Button from "../common/Button";
 import { EnvelopeIcon } from "./gfx";
-import { HeaderContent, HeaderTitle } from "./styled";
-import ThemeSwitch from "./ThemeSwitch";
+import { HeaderContent, HeaderTitle, HeaderWrapper } from "./styled";
 
 
 const HeaderInfoBox = () => {
     return (
-        <div>
-            <ThemeSwitch />
+        <HeaderWrapper>
             <Info>This is</Info>
             <HeaderTitle>Marcin Kawczyński</HeaderTitle>
             <HeaderContent>
@@ -18,7 +16,7 @@ const HeaderInfoBox = () => {
                 <EnvelopeIcon />
                 Hire Me
             </Button>
-        </div>
+        </HeaderWrapper>
     );
 }
 

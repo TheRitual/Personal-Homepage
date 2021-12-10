@@ -4,6 +4,10 @@ const CircleImage = styled.img`
     border-radius: 50%;
     width: 100%;
     margin: 0;
+    grid-row: span 2;
+    @media(max-width: 700px) {
+        grid-row: auto;
+    }
 `;
 
 export default CircleImage;

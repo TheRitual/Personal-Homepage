@@ -4,7 +4,7 @@ import PersonalHomepage from "../PersonalHomepage";
 import { GlobalStyle } from "../core/globalStyles";
 import themeConstructor from "../core/themes";
 import { useSelector } from "react-redux";
-import { selectColor, selectShade } from "../PersonalHomepage/HeaderInfoBox/ThemeSwitch/themeSlice";
+import { selectColor, selectShade } from "../PersonalHomepage/ThemeSwitch/themeSlice";
 
 const App = () => {
   const shade = useSelector(selectShade);

@@ -7,4 +7,7 @@ export const PortfolioGrid = styled.section`
     row-gap: 32px;
     margin-bottom: 120px;
     width: 100%;
+    @media(max-width: 700px) {
+        grid-template-columns: 1fr;
+    }
 `;
