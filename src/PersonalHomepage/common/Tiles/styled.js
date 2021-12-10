@@ -107,6 +107,10 @@ export const GridList = styled.ul`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 8px 32px;
+    @media(max-width: ${({ theme }) => theme.breakpoints.tablet}) {
+        margin-top: 16px;
+        grid-template-columns: 1fr 1fr;
+    }
     @media(max-width: ${({ theme }) => theme.breakpoints.mobile}) {
         margin-top: 16px;
         grid-template-columns: 1fr;

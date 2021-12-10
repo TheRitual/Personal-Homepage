@@ -33,7 +33,8 @@ const common = {
         ],
     },
     breakpoints: {
-        mobile: "1024px",
+        mobile: "576px",
+        tablet: "992px",
     },
     transitions: {
         short: "0.3s",

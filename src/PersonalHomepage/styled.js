@@ -29,7 +29,7 @@ export const IconWrapper = styled.div`
 `;
 
 export const Page = styled.div`
-    @media(max-width: ${({theme}) => theme.breakpoints.mobile}) {
+    @media(max-width: ${({theme}) => theme.breakpoints.tablet}) {
         margin: auto;
         width: fit-content;
         padding: 16px;
