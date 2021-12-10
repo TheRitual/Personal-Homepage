@@ -5,7 +5,8 @@ const CircleImage = styled.img`
     width: 100%;
     margin: 0;
     grid-row: span 2;
-    @media(max-width: 700px) {
+    @media(max-width: ${({theme}) => theme.breakpoints.mobile}) {
+        margin: 12px;
         grid-row: auto;
     }
 `;

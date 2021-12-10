@@ -6,6 +6,9 @@ export const Title = styled.h2`
     line-height: 36px;
     letter-spacing: 0.05em;
     color: ${({ theme }) => theme.colors.titleColor};
+    @media(max-width: ${({theme}) => theme.breakpoints.mobile}) {
+        font-size: 18px;
+    }
 `;
 
 export const TitleCenter = styled(Title)`
@@ -27,6 +30,9 @@ export const SubTitle = styled.h4`
     text-align: center;
     font-weight: normal;
     margin: 8px auto 24px;
+    @media(max-width: ${({theme}) => theme.breakpoints.mobile}) {
+        font-size: 17px;
+    }
 `;
 
 export default Title;

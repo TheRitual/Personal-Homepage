@@ -15,11 +15,11 @@ export const Header = styled.header`
     grid-template-columns: minmax(100px, 398px) auto;
     column-gap: 66px;
     row-gap: 0px;
-    @media(max-width: 700px) {
+    @media(max-width: ${({theme}) => theme.breakpoints.mobile}) {
         margin: 0;
         padding: 0;
-        grid-template-columns: 50% 50%;
-        column-gap: 5px;
+        grid-template-columns: 40% auto;
+        column-gap: 28px;
     }
 `;
 
@@ -29,7 +29,7 @@ export const IconWrapper = styled.div`
 `;
 
 export const Page = styled.div`
-    @media(max-width: 700px) {
+    @media(max-width: ${({theme}) => theme.breakpoints.mobile}) {
         margin: auto;
         width: fit-content;
         padding: 16px;

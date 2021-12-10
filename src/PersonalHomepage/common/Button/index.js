@@ -25,6 +25,9 @@ const Button = styled.button`
             2px 2px 0px ${({ theme }) => theme.colors.buttonShadow},
             -2px -2px 0px ${({ theme }) => theme.colors.buttonShadow};
     }
+    @media(max-width: ${({theme}) => theme.breakpoints.mobile}) {
+        font-size: 18px;
+    }
 `;
 
 export default Button;

@@ -22,8 +22,8 @@ export const StyledBorderedTile = styled(StyledTile)`
             &:hover {
             border-color: ${({ theme }) => theme.colors.tileBorderHover};
             }
-            @media(max-width: 700px) {
-                padding: 20px;
+            @media(max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+                padding: 24px;
             }
         `}
 `;
@@ -37,6 +37,11 @@ export const ColoredTitle = styled.h3`
             letter-spacing: 0.05em;
             color: ${theme.colors.primary};
             margin-bottom: 24px;
+            @media(max-width: ${theme.breakpoints.mobile}) {
+                margin-bottom: 16px;
+                font-size: 16px;
+                line-height: 19px;
+            }
         `}
 `;
 
@@ -47,6 +52,11 @@ export const Description = styled.p`
             line-height: 1.4;
             letter-spacing: 0.05em;
             color: ${theme.colors.info};
+            @media(max-width: ${theme.breakpoints.mobile}) {
+                font-size: 14px;
+                line-height: 17px;
+            }
+            
     `}
 `;
 
@@ -65,6 +75,10 @@ export const LinkListItem = styled.li`
     max-width: 100%;
     white-space: nowrap;
     overflow: hidden;
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+        font-size: 14px;
+        line-height: 17px;
+    }
 `;
 
 export const LinkListLink = styled.a`
@@ -76,6 +90,12 @@ export const LinkListLink = styled.a`
             &:hover {
                 color: ${theme.colors.linkColorHover};
                 border-bottom: 1px solid ${theme.colors.linkColorHover};
+            }
+            @media(max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+                font-size: 14px;
+                line-height: 17px;
+            }
+    }
         `
     }
 `;
@@ -87,9 +107,9 @@ export const GridList = styled.ul`
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 8px 32px;
-    @media(max-width: 700px) {
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobile}) {
         margin-top: 16px;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
     }
 `;
 
@@ -102,4 +122,7 @@ export const ListItemText = styled.p`
     font-size: 18px;
     margin: 0;
     padding: 0;
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobile}) {
+        font-size: 14px;
+    }
 `;
